@@ -10,7 +10,7 @@ public class HelloWorldController {
 
 	@GetMapping(path = "/hello-world")
 	public String helloWorld() {
-		return "Hello World - V2 to check CodePipeline";
+		return "Hello World - V2 to check CodePipeline..now added more content to check what happens when I terminate env. on aws and commit changes on git";
 	}
 
 	@GetMapping(path = "/hello-world-bean")
